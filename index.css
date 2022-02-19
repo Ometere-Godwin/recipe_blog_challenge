@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textContainer {
+    align-items: center;
+    text-transform: capitalize;
+    width: 50%;
+    margin: 50px;
+}
+
+.textImg h5{
+    margin-bottom: 20px;
+    size: 14px;
+    font-style: italic;
+    color: gray;
+    width: 450px;
+}
+
+.creamy img{
+    width: 669px;
+    height: 270px;
+}
+
+.ingredients{
+    text-align: start;
+    margin-top: 20px;
+    color: green;
+}
+
+.graham{
+    font-style: italic;
+    color: gray;
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.details{
+    width: 5px;
+    text-align: center;
+    color: gray;
+    font-size: 15px;
+}
+
+span{
+    color: black;
+    font-style: bold;
+}
+
+.instructions .fa{
+    background: orange;
+}
+
+.right{
+    float: right;
+    margin: 0 20px;
+    width: 160px;
+    height: 230px;
+    border-radius: 3px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.right i{
+    width: 15px;
+    height: 15px;
+    font-size: 30px;
+    line-height: 50px;
+    color: #009688;
+    padding: 25px;
+}
+
+.servingDetails{
+    display: inline-block;
+}
+
+.descContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.fa{
+    font-size: 18px;
+    margin-right: 5px;
+}
+          
+.descContainer p{
+        font-size: 15px;
+        font-weight: 700;
+        color: gray;
+        margin-bottom: 20px;
+      }
+
+        footer{
+            text-align: center;
+            margin-top: 50px;
+            font-size: 15px;
+            color: gray;
+        }
+
+.servings{
+    color: peru;
+    font-size: 10px;
+}
+
+.yields{
+    color: gray;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.rights i{
+    border-radius: 3px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    float: right;
+    margin: 0 20px;
+    width: 260px;
+    height: 120px;
+    color: #009688;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+@media (max-width: 992){
+    
+}
+
+
+
